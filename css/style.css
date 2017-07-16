@@ -149,10 +149,18 @@ li {
         left: 40px;
   }
     
-    .portfolio div {
-    font-size: 200%;
-    bottom: 40px;
-    left: 40px;
-  }
+    .projects div {
+        visibility: hidden;
+        
+    }
+    
+    .projects ul {
+        position: relative;
+        left: 0;
+        top: 75;
+        float: left;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
     
 }
