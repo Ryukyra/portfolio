@@ -45,36 +45,15 @@ div {
   color: red;
 }
 
-@media (max-width: 500px) {
-  .portfolio {
-    background: url(../img/arrigo.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  h1 {
-    text-shadow: 2px 2px 2px #888;
-    font-size: 200%;
-    position: absolute;
-    color: white;
-    top: 40px;
-    left: 40px;
-  }
-
-  .portfolio div {
-    font-size: 200%;
-    bottom: 40px;
-    left: 40px;
-  }
-
-}
-
 /* ----- PROJECTS ----- */
 
 .projects {
   background-color: #111;
+}
+
+.projects body {
+    width: 100%;
+    height: 100%;
 }
 
 ul {
@@ -114,4 +93,43 @@ li {
 
 .projects li span:hover {
   color: #444;
+}
+
+@media (max-width: 500px) {
+  .portfolio {
+    background: url(../img/arrigo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    text-shadow: 2px 2px 2px #888;
+    font-size: 200%;
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 40px;
+  }
+
+  .portfolio div {
+    font-size: 200%;
+    bottom: 40px;
+    left: 40px;
+  }
+    
+    .projects ul {
+        position: relative;
+        left: 0;
+        top: 75;
+        float: left;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    .projects li {
+        font-size: 150%;
+    }
+
 }
