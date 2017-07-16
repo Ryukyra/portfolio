@@ -149,6 +149,12 @@ li {
         left: 40px;
   }
     
+    .portfolio div {
+        font-size: 200%;
+        bottom: 40px;
+        left: 40px;
+  }
+    
     .projects div {
         visibility: hidden;
         
